@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'InvestmentSDK_Example' do
+  pod 'InvestmentSDK', :path => '../'
+
+  target 'InvestmentSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
