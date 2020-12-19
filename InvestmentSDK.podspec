@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'InvestmentSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of InvestmentSDK.'
+  s.summary          = 'A SDK/Library that will provide the all features about investment in back like Mutual funds, RD, FD.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,23 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A Common frame for my company that will provide an interface to calculate investment facilities for any bank. Any IT company can use this in swift project as plug and play.
                        DESC
 
-  s.homepage         = 'https://github.com/Amrendra/InvestmentSDK'
+  s.homepage         = 'https://github.com/amrendra-roy/InvestmentSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Amrendra' => 'amar.roy17@gmail.com' }
-  s.source           = { :git => 'https://github.com/Amrendra/InvestmentSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/amrendra-roy/InvestmentSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'InvestmentSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'InvestmentSDK' => ['InvestmentSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'Resources' => ['InvestmentSDK/Assets/MyPic2014.jpg']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
