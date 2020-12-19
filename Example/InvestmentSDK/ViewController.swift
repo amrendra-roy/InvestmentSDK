@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         accessFunctionFromPOD()
         
         accessResourcesFromPOD()
+        print("try commit")
     }
     
     // Access Resources from POD spac library
