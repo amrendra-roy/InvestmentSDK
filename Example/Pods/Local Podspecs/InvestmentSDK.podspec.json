@@ -1,0 +1,29 @@
+{
+  "name": "InvestmentSDK",
+  "version": "0.1.0",
+  "summary": "A SDK/Library that will provide the all features about investment in back like Mutual funds, RD, FD.",
+  "description": "A Common frame for my company that will provide an interface to calculate investment facilities for any bank. Any IT company can use this in swift project as plug and play.",
+  "homepage": "https://github.com/amrendra-roy/InvestmentSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Amrendra": "amar.roy17@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/amrendra-roy/InvestmentSDK.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "InvestmentSDK/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "InvestmentSDK/Assets/MyPic2014.jpg"
+    ]
+  },
+  "swift_version": "5.0"
+}

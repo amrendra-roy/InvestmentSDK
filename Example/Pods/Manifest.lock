@@ -1,0 +1,16 @@
+PODS:
+  - InvestmentSDK (0.1.0)
+
+DEPENDENCIES:
+  - InvestmentSDK (from `../`)
+
+EXTERNAL SOURCES:
+  InvestmentSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InvestmentSDK: a3aaf50732b70d865058821d3922aea79246794a
+
+PODFILE CHECKSUM: 2d5b93ecf0d0635dd3ab7742ac794a5801f30481
+
+COCOAPODS: 1.9.1
